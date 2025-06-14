@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-Проект развернут на Vercel и доступен по ссылке: **[https://seotlt-test.vercel.app/](https://seotlt-test.vercel.app/)**
+Проект развернут на Vercel и доступен по ссылке: **[https://seotlt-test-tau.vercel.app/](https://seotlt-test-tau.vercel.app/)**
 
 ## Особенности проекта
 
