@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.emptyMessage {
+  text-align: center;
+  font-size: 1.32px;
+  color: #6c757d;
+  padding: 48px 0;
+}

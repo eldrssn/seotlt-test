@@ -1,0 +1,54 @@
+@use '../../../shared/styles/variables' as *;
+
+.header {
+  background-color: $header-bg;
+  color: $header-text-color;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: $header-text-color;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  padding: 8px 12px;
+  border: 1px solid $header-text-color;
+  background-color: transparent;
+  color: $header-text-color;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $header-text-color;
+    color: $header-bg;
+  }
+
+  &.primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+    &:hover {
+      opacity: 0.9;
+      color: $header-text-color;
+    }
+  }
+}

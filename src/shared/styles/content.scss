@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+.content-view {
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 12px;
+    line-height: 1.7;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 16px;
+    padding-left: 12px;
+  }
+
+  li {
+    margin-bottom: 12px;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  blockquote {
+    padding-left: 16px;
+    border-left: 4px solid $border-color;
+    margin: 24px 0;
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  pre {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+}
